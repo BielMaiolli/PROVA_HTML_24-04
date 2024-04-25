@@ -1,0 +1,76 @@
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header {
+    background-color:#0074d9 ;
+}
+
+h1 {
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul {
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+section ul li {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 330px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 100vh;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    
+}
+
+main section ul{
+   list-style: none;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ff4136;
+    color: white;
+    margin-left: 10px;
+}
+
+button:hover {
+   transition: 300ms;
+   opacity: 0.8;
+}
